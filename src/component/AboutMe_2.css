@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.AboutMe_2{
+    margin: 130vw 10px 100px 10px;
+}
+.license > h2, .language > h2{
+    margin-bottom: 5vw;
+}
+.licenseList, .languageList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.licenseList{
+    margin-bottom: 50px;
+}
+.licenseList ul, .languageList ul{
+    width: 48%;
+    padding-left: 1vw;
+}
+.licenseList ul li:first-child,
+.languageList ul li:first-child{
+    font-size: 3.3333vw;
+    font-weight: 600;
+    padding: 0 0 2vw 1.5555vw;
+    border-left: 4px solid #03A0B3;
+}
+.licenseList ul li:nth-child(2),
+.languageList ul li:nth-child(2){
+    font-size: 3.2222vw;
+    padding: 0 0 0 1.5555vw;
+    border-left: 4px solid #03A0B3;
+    margin-bottom: 8.8888vw;
+}
